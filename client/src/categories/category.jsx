@@ -116,7 +116,7 @@ function Category({ data }) {
                 variant="danger"
                 size="sm"
                 onClick={() => {
-                  setShowDeleteConfirmationDialog(data.id);
+                  setShowDeleteConfirmationDialog(data);
                 }}
               >
                 <Icon path={mdiDeleteOutline} size={1} />

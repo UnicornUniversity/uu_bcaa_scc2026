@@ -11,7 +11,7 @@ function Navigation() {
   return (
     <Navbar
       expand="md"
-      bg="success"
+      bg="primary"
       data-bs-theme="dark"
       collapseOnSelect={true}
     >

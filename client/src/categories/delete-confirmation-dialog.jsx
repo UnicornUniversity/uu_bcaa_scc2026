@@ -13,7 +13,7 @@ function DeleteConfirmationDialog({
       </Modal.Header>
 
       <Modal.Body>
-        <p>Kategorie s id {showDeleteConfirmationDialog} bude smazána.</p>
+        <p>Kategorie {showDeleteConfirmationDialog.name} bude smazána.</p>
       </Modal.Body>
 
       <Modal.Footer>
@@ -25,7 +25,7 @@ function DeleteConfirmationDialog({
         </Button>
         <Button
           variant="danger"
-          onClick={() => handleDelete(showDeleteConfirmationDialog)}
+          onClick={() => handleDelete(showDeleteConfirmationDialog.id)}
         >
           Smazat
         </Button>

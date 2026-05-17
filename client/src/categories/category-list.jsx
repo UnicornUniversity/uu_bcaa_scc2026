@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { CategoryContext } from "./category-provider";
 import Category from "./category";
 import Stack from "react-bootstrap/Stack";

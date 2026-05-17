@@ -7,6 +7,8 @@ const CategoryProvider = ({ children }) => {
   const [error, setError] = useState();
   const [state, setState] = useState();
 
+  console.log(state);
+
   const fetchCategories = async () => {
     setState("loading");
     const response = await fetch("/category/list");
